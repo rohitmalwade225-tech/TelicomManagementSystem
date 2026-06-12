@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* =========================
-   ROOT & RESET
-========================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,9 +18,7 @@ body {
     overflow-x: hidden;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -71,17 +67,13 @@ body {
     transform: translateX(5px);
 }
 
-/* =========================
-   MAIN CONTENT
-========================= */
+
 .main-content {
     margin-left: 260px;
     padding: 40px;
 }
 
-/* =========================
-   FULL PAGE CENTER (LOGIN)
-========================= */
+
 .full-page-center {
     display: flex;
     justify-content: center;
@@ -90,9 +82,7 @@ body {
     padding: 20px;
 }
 
-/* =========================
-   GLASS CARD
-========================= */
+
 .glass-card {
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(25px);
@@ -109,9 +99,7 @@ body {
     border-color: rgba(0, 255, 255, 0.2);
 }
 
-/* =========================
-   PAGE TITLE
-========================= */
+
 .page-title {
     font-size: 42px;
     font-weight: 800;
@@ -120,9 +108,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-/* =========================
-   BUTTONS
-========================= */
+
 .custom-btn {
     border: none;
     padding: 12px 26px;
@@ -161,9 +147,7 @@ body {
     color: white;
 }
 
-/* =========================
-   FORM FIELDS
-========================= */
+
 .form-control {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -182,9 +166,7 @@ body {
     outline: none;
 }
 
-/* =========================
-   TABLES
-========================= */
+
 .table-responsive-wrapper {
     background: rgba(255, 255, 255, 0.02);
     border-radius: 20px;
@@ -213,9 +195,7 @@ body {
     background: rgba(0, 255, 255, 0.04);
 }
 
-/* =========================
-   DASHBOARD ICON
-========================= */
+
 .dashboard-icon-frame {
     width: 70px;
     height: 70px;
@@ -228,9 +208,7 @@ body {
     color: #00ffff;
 }
 
-/* =========================
-   FIX: INPUT TEXT VISIBILITY (RECHARGE / FORMS)
-========================= */
+
 
 input.form-control,
 textarea.form-control,
@@ -251,9 +229,7 @@ textarea.form-control:focus {
     background: rgba(255, 255, 255, 0.10) !important;
 }
 
-/* =========================
-   FIX: TABLE VISIBILITY (RECHARGE HISTORY BOXES)
-========================= */
+
 
 .custom-table tbody td {
     color: #e2e8f0 !important;
