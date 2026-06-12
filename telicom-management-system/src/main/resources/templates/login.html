@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Gateway Login | Telecom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+    <div class="full-page-center">
+        <div class="glass-card" style="width: 440px; padding: 45px 35px;">
+            
+            <div class="text-center mb-4">
+                <h1 class="page-title mb-1" style="font-size: 36px;">📡 TELECOM</h1>
+                <p class="text-white-50 small">Core Infrastructure Management Engine</p>
+            </div>
+
+            <form th:action="@{/login}" method="post">
+                <div class="mb-3">
+                    <input type="text" name="username" class="form-control" placeholder="Admin Username" required>
+                </div>
+
+                <div class="mb-4">
+                    <input type="password" name="password" class="form-control" placeholder="Security Token Key" required>
+                </div>
+
+                <button type="submit" class="custom-btn btn-primary-custom w-100 py-3 mb-3">
+                    System Authentication <i class="fa-solid fa-bolt ms-1"></i>
+                </button>
+            </form>
+
+            <a th:href="@{/register}" class="custom-btn btn-info-custom w-100 py-3">
+                <i class="fa-solid fa-user-plus me-1"></i> Register New Operator
+            </a>
+            
+        </div>
+    </div>
+
+</body>
+</html>
